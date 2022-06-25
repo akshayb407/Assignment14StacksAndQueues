@@ -6,7 +6,14 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Stacks Method");
+
+            LinkedListStack Stack = new LinkedListStack();
+            Stack.Push(70);
+            Stack.Push(30);
+            Stack.Push(56);
+            Stack.Display();
+
         }
     }
 }
