@@ -13,7 +13,9 @@ namespace DataStructures
             Stack.Push(30);
             Stack.Push(56);
             Stack.Display();
-
+            Stack.Pop();
+            Stack.Peek();
+            Stack.IsEmpty();
         }
     }
 }
